@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <title>Coding Dayz - jshint</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../">Coding Dayz <strong>A personal blog</strong></a></h1>
+                <nav><ul>
+                    <li><a href="../pages/about-me.html">About&nbsp;Me</a></li>
+                    <li><a href="../category/editors.html">Editors</a></li>
+                    <li><a href="../category/hugo.html">Hugo</a></li>
+                    <li><a href="../category/python.html">Python</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="../posts/editors/2020-08/solution-to-failed-to-load-jshint-library-error-in-vs-code.html">Solution to &#8216;Failed to load jshint library&#8217; Error in <span class="caps">VS</span>&nbsp;Code</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2020-08-22T12:23:19+10:00">
+                Published: Sat 22 August 2020
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/michael-b.html">Michael B</a>
+        </address>
+<p>In <a href="../category/editors.html">Editors</a>.</p>
+<p>tags: <a href="../tag/vs-code.html">vs-code</a> <a href="../tag/jshint.html">jshint</a> <a href="../tag/npm.html">npm</a> <a href="../tag/solutions.html">solutions</a> <a href="../tag/brew.html">brew</a> <a href="../tag/nvm.html">nvm</a> </p>
+</footer><!-- /.post-info --><hr>
+<p>When using <span class="caps">VS</span> Code with <code>jshint</code> installed I would get the following error displayed whenever I opened a JavaScript&nbsp;project:</p>
+<p><img alt="VS Code 'jshint' error" src="../posts/editors/2020-08/jshint-vs-code-failure.png"></p>
+<p>I want <code>jshint</code> to be available globally &#8230; I want it to be available in all JavaScript projects. So I went to the command line and dutifully entered <code>npm install -g jshint</code> thinking that it would fix the problem. It did not!&nbsp;☹️</p>
+<p>A bit of searching on the net dredged up <a href="https://stackoverflow.com/questions/36965503/visual-studio-code-error-failed-to-load-jshint-library">this very problem</a> on StackOverflow. <a href="https://stackoverflow.com/a/57888870/8083993">This answer</a> was particularly helpful! Thanks Abdollah! 👍&nbsp;🙂</p>
+<p>What I took from the <span class="caps">SO</span> issue was that the solution requires two&nbsp;steps:</p>
+<ol>
+<li>Issue <code>npm install -g jshint</code> (done ✅ 😄) and&nbsp;then,</li>
+<li>Configure the <strong><code>jshint</code> node path</strong> in the <span class="caps">VS</span> Code preferences (not yet ❎&nbsp;🙁).</li>
+</ol>
+<p>So, what is the <strong>global node path</strong> on my&nbsp;device?</p>
+<p>To find that out, one must use the <code>npm root -g</code> command. Use that command if you are using <strong>npm</strong> <span class="caps">AND</span> you specifically want to find the <strong>global root</strong>, otherwise use <code>npm root</code> to to find the <strong>local node path</strong>.&nbsp;👍</p>
+<p>Here is a short <strong><em>asciicast</em></strong> of the process (recorded using <a href="https://asciinema.org">asciinema</a>)
+{{&lt; asciinema key=&#8221;npm_jshint_install&#8221; rows=&#8221;10&#8221; preload=&#8221;1&#8221; speed=&#8221;3&#8221; start-at=&#8221;5&#8221;&nbsp;loop=&#8221;1&#8221;&gt;}}</p>
+<p>As I said, I want the location of the <strong>global node path</strong> and for me that is <code>/usr/local/lib/node_modules</code>. This location is the location relevant to a <code>Homebrew</code> install. If you installed <code>node</code> via <code>nvm</code>, then the location on macos is more likely to be something like <code>~/.nvm/versions/node/v12.18.3/lib/node_modules</code>.</p>
+<p>Finally, open <span class="caps">VS</span> Code <code>Settings</code>, search for <code>jshint node path</code> in the <em>Search settings</em> field and then enter the <strong>global node path</strong> i.e. again, for me it&#8217;s <code>/usr/local/lib/node_modules</code>.</p>
+<p><img alt="VS Code settings - 'jshint' node path" src="../posts/editors/2020-08/jshint_node_path_vs_code.png"></p>
+<p>After setting the <strong>jshint node path</strong> you can check it by opening the <code>Command Palette</code> and typing <code>show output</code>.</p>
+<p><img alt="VS Code command palette -show output" src="../posts/editors/2020-08/jshint-vs-code-show-output.png"></p>
+<p>The output window should show something like&nbsp;this:</p>
+<p><code>shell script
+[Info  - 10:45:37 PM] jshint library loaded from /usr/local/lib/node_modules/jshint/src/jshint.js</code></p>
+<p>Et voilà!&nbsp;😅</p>
+<hr>
+<p>Update:</p>
+<p>I originally installed <code>node</code> via <a href="https://brew.sh">Homebrew</a> but this is apparently <strong>not best practice</strong> since a package manager (<code>brew</code>) is installing another package manager (<code>npm</code>) so I have uninstalled the brewed version of <code>node</code> and reinstalled the most recent version (v12.18.3 at time of publishing) via <code>nvm</code>.</p>
+<p>Find a description of the issue <a href="https://gist.github.com/DanHerbert/9520689">here</a>.</p>
+<p>Find the GitHub <code>nvm</code> repo <a href="https://github.com/nvm-sh/nvm">here</a>.</p>
+<hr>
+<p>Update&nbsp;2:</p>
+<p>The &#8220;<span class="caps">VS</span> Code JSHint extension&#8221; setup documentation says that the extension will look in the <code>jshint</code> module in the <strong>current directory</strong> and in the <strong>global package location</strong> &#8230; maybe it&#8217;s just me, but the extension <strong><em>does not seem</em></strong> to look in the global location and I had to update the <strong>jshint node path</strong> with the correct&nbsp;path.</p>
+<p><img alt="VS Code JShint Extension Setup" src="../posts/editors/2020-08/jshint-extension-setup.png"></p>
+<p>Find the JSHint extension repo <a href="https://github.com/Microsoft/vscode-jshint">here</a> on&nbsp;GitHub.</p>
+<p>🦸‍♂️&nbsp;🎢</p>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="https://getpelican.com/">Pelican</a></li>
+                            <li><a href="https://www.python.org/">Python.org</a></li>
+                            <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="https://github.com/gloc-mike">github</a></li>
+                            <li><a href="https://twitter.com/glocmike">twitter</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

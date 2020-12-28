@@ -3,9 +3,10 @@
 <head>
         <meta charset="utf-8" />
         <meta name="generator" content="Pelican" />
-        <title>Coding Dayz - Python</title>
+        <title>Beautifulhugo Theme Extras - Shortcodes (Split)</title>
         <link rel="stylesheet" href="https://gloc-mike.github.io/theme/css/main.css" />
         <link href="https://gloc-mike.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Coding Dayz Atom Feed" />
+        <meta name="description" content="Another extra beautifulhugo theme shortcode is called split. This shortcode splits the page into two columns. The example shown in the doco in the..." />
 </head>
 
 <body id="index" class="home">
@@ -13,28 +14,43 @@
                 <h1><a href="https://gloc-mike.github.io/">Coding Dayz <strong>A personal blog</strong></a></h1>
                 <nav><ul>
                     <li><a href="https://gloc-mike.github.io/pages/about-me.html">About&nbsp;Me</a></li>
-                    <li><a href="https://gloc-mike.github.io/category/hugo.html">Hugo</a></li>
-                    <li class="active"><a href="https://gloc-mike.github.io/category/python.html">Python</a></li>
+                    <li class="active"><a href="https://gloc-mike.github.io/category/hugo.html">Hugo</a></li>
+                    <li><a href="https://gloc-mike.github.io/category/python.html">Python</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://gloc-mike.github.io/posts/hugo/2020-08/beautifulhugo-theme-extras-shortcodes-split.html" rel="bookmark"
+           title="Permalink to Beautifulhugo Theme Extras - Shortcodes (Split)">Beautifulhugo Theme Extras - Shortcodes&nbsp;(Split)</a></h1>
+    </header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="https://gloc-mike.github.io/posts/python/2020-08/its-alive.html">It&#8217;s&nbsp;Alive!</a></h1>
+    <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2020-08-10T07:55:32+10:00">
-                Published: Mon 10 August 2020
+        <abbr class="published" title="2020-08-13T22:34:32+10:00">
+                Published: Thu 13 August 2020
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="https://gloc-mike.github.io/author/michael-b.html">Michael B</a>
         </address>
-<p>In <a href="https://gloc-mike.github.io/category/python.html">Python</a>.</p>
-<p>tags: <a href="https://gloc-mike.github.io/tag/pelican.html">pelican</a> <a href="https://gloc-mike.github.io/tag/publishing.html">publishing</a> </p>
-</footer><!-- /.post-info --><p>It&#8217;s <span class="caps">ALIVE</span>!</p>
-<p>Time for a celebratory virtual tipple!&nbsp;🍸</p>
-<p>Cheers! 😄 🎉&nbsp;😄</p>                </article>
-            </aside><!-- /#featured -->
+<p>In <a href="https://gloc-mike.github.io/category/hugo.html">Hugo</a>.</p>
+<p>tags: <a href="https://gloc-mike.github.io/tag/hugo.html">hugo</a> <a href="https://gloc-mike.github.io/tag/beautifulhugo.html">beautifulhugo</a> <a href="https://gloc-mike.github.io/tag/shortcodes.html">shortcodes</a> </p>
+</footer><!-- /.post-info -->      <p>Another <em>extra</em> <code>beautifulhugo</code> theme shortcode is called <strong>split</strong>. This shortcode splits the page into <strong>two columns</strong>. The example shown in the doco in the <code>beautifulhugo</code> repo (at the time of writing) was a little confusing because the closing <code>endcolumns</code> tag was incorrect (missing an <strong>s</strong>). Got there in the end.&nbsp;😅</p>
+<p>It should look like&nbsp;this:</p>
+<div class="highlight"><pre><span></span><code><span class="cp">{{</span><span class="o">&lt;/*</span> <span class="nv">columns</span> <span class="o">*/&gt;</span><span class="cp">}}</span>
+    First column on the right side of the page
+<span class="cp">{{</span><span class="o">&lt;/*</span> <span class="nv">column</span> <span class="o">*/&gt;</span><span class="cp">}}</span>
+    Second column on the left side of the page
+<span class="cp">{{</span><span class="o">&lt;/*</span> <span class="nv">endcolumns</span> <span class="o">*/&gt;</span><span class="cp">}}</span>
+</code></pre></div>
+
+<p>Yes, the first tag is <code>columns</code> whereas the intermediate tag is <code>column</code>. And the closing tag is again a plural i.e. <code>endcolumns</code>.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>

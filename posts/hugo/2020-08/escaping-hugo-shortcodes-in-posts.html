@@ -3,42 +3,50 @@
 <head>
         <meta charset="utf-8" />
         <meta name="generator" content="Pelican" />
-        <title>It's Alive!</title>
+        <title>Escaping Hugo Shortcodes in Posts</title>
         <link rel="stylesheet" href="https://gloc-mike.github.io/theme/css/main.css" />
         <link href="https://gloc-mike.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Coding Dayz Atom Feed" />
-        <meta name="description" content="It's ALIVE! Time for a celebratory virtual tipple! 🍸 Cheers! 😄 🎉 😄" />
+        <meta name="description" content="TL;DR Add /* after the opening shortcode tags i.e. {{</* and before the closing shortcode tags i.e. */>}} While creating the post Beautifulhugo..." />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
                 <h1><a href="https://gloc-mike.github.io/">Coding Dayz <strong>A personal blog</strong></a></h1>
                 <nav><ul>
-                    <li><a href="https://gloc-mike.github.io/pages/about-me.html">About Me</a></li>
-                    <li class="active"><a href="https://gloc-mike.github.io/category/python.html">Python</a></li>
+                    <li><a href="https://gloc-mike.github.io/pages/about-me.html">About&nbsp;Me</a></li>
+                    <li class="active"><a href="https://gloc-mike.github.io/category/hugo.html">Hugo</a></li>
+                    <li><a href="https://gloc-mike.github.io/category/python.html">Python</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 <section id="content" class="body">
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="https://gloc-mike.github.io/its-alive.html" rel="bookmark"
-           title="Permalink to It's Alive!">It's Alive!</a></h1>
+        <a href="https://gloc-mike.github.io/posts/hugo/2020-08/escaping-hugo-shortcodes-in-posts.html" rel="bookmark"
+           title="Permalink to Escaping Hugo Shortcodes in Posts">Escaping Hugo Shortcodes in&nbsp;Posts</a></h1>
     </header>
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2020-08-10T07:55:32+10:00">
-                Published: Mon 10 August 2020
+        <abbr class="published" title="2020-08-14T23:20:37+10:00">
+                Published: Fri 14 August 2020
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="https://gloc-mike.github.io/author/michael-b.html">Michael B</a>
         </address>
-<p>In <a href="https://gloc-mike.github.io/category/python.html">Python</a>.</p>
-<p>tags: <a href="https://gloc-mike.github.io/tag/pelican.html">pelican</a> <a href="https://gloc-mike.github.io/tag/publishing.html">publishing</a> </p>
-</footer><!-- /.post-info -->      <p>It's ALIVE!</p>
-<p>Time for a celebratory virtual tipple! 🍸</p>
-<p>Cheers! 😄 🎉 😄</p>
+<p>In <a href="https://gloc-mike.github.io/category/hugo.html">Hugo</a>.</p>
+<p>tags: <a href="https://gloc-mike.github.io/tag/hugo.html">hugo</a> <a href="https://gloc-mike.github.io/tag/beautifulhugo.html">beautifulhugo</a> <a href="https://gloc-mike.github.io/tag/shortcodes.html">shortcodes</a> </p>
+</footer><!-- /.post-info -->      <hr>
+<p><span class="caps">TL</span>;<span class="caps">DR</span></p>
+<p>Add <code>/*</code> after the opening shortcode tags i.e. <code>{{</code>&lt;<code>/*</code> and before the closing shortcode tags i.e. <code>*/</code>&gt;<code>}}</code></p>
+<hr>
+<p>While creating the post <a href="beautifulhugo-theme-extras-shortcodes-split.html">Beautifulhugo Theme Extras - Shortcodes (Split)</a>, I had quite a bit of trouble finding the answer to the question of &#8220;<em>how can I display a block of code in my post?</em>&#8220;.</p>
+<p>The answer seemed obvious, use a code fence i.e. use triple backticks; <span class="caps">OR</span> indent the code block using 4 spaces; <span class="caps">OR</span> after adding a colon (:), surround the code by two blank lines, one at the top and one below the last line of&nbsp;code.</p>
+<p>As it turned out, that was the wrong question! <em>I, Robot</em>&nbsp;anyone?</p>
+<p>The right question was &#8220;<em>what is the markdown escape sequence required to correctly display a <code>hugo shortcode</code> in my post i.e. without it being interpreted?</em>&#8220;.</p>
+<p>The answer eventually came to me via Desmond Lua at <a href="https://code.luasoftware.com/tutorials/hugo/how-to-escape-shortcode-in-hugo">LuaSoftware</a>.</p>
+<p>Thanks Desmond!&nbsp;😅</p>
     </div><!-- /.entry-content -->
 
   </article>
