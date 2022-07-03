@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Python Dayz&#39;s</title>
+    <link>http://gloc-mike.github.io/posts/</link>
+    <description>Recent content in Posts on Python Dayz&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jul 2022 15:39:30 +1000</lastBuildDate><atom:link href="http://gloc-mike.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Starting Again</title>
+      <link>http://gloc-mike.github.io/posts/starting-again/</link>
+      <pubDate>Sun, 03 Jul 2022 15:39:30 +1000</pubDate>
+      
+      <guid>http://gloc-mike.github.io/posts/starting-again/</guid>
+      <description>So here we go again! Maybe this time it will be a success. ☺️</description>
+    </item>
+    
+  </channel>
+</rss>
