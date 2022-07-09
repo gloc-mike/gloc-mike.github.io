@@ -1,20 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Python Dayz</title>
-    <link>http://gloc-mike.github.io/posts/</link>
-    <description>Recent content in Posts on Python Dayz</description>
+    <title>Posts on Coding Dayz</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Coding Dayz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jul 2022 15:39:30 +1000</lastBuildDate><atom:link href="http://gloc-mike.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2022 Michael B</copyright>
+    <lastBuildDate>Sun, 03 Jul 2022 15:39:30 +1000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Starting Again</title>
-      <link>http://gloc-mike.github.io/posts/starting-again/</link>
+      <link>http://localhost:1313/posts/2022-07-03-starting-again/</link>
       <pubDate>Sun, 03 Jul 2022 15:39:30 +1000</pubDate>
       
-      <guid>http://gloc-mike.github.io/posts/starting-again/</guid>
-      <description>So here we go again! Maybe this time it will be a success! ☺️
+      <guid>http://localhost:1313/posts/2022-07-03-starting-again/</guid>
+      <description>So here we go again! Maybe this time it will be a success! 🚀
 Breath deeply and focus on one thing at a time.</description>
+    </item>
+    
+    <item>
+      <title>Solution to &#39;Failed to load jshint library&#39; Error in VS Code</title>
+      <link>http://localhost:1313/posts/2020-08-22/2020-08-22-jshint-vs-code-error/</link>
+      <pubDate>Sat, 22 Aug 2020 12:23:19 +1000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2020-08-22/2020-08-22-jshint-vs-code-error/</guid>
+      <description>When using VS Code with jshint installed I would get the following error displayed whenever I opened a JavaScript project: I want jshint to be available globally &amp;hellip; I want it to be available in all JavaScript projects. So I went to the command line and dutifully entered npm install -g jshint thinking that it would fix the problem. It did not! ☹️
+A bit of searching on the net dredged up this very problem on StackOverflow.</description>
+    </item>
+    
+    <item>
+      <title>Escaping Hugo Shortcodes in Posts</title>
+      <link>http://localhost:1313/posts/2020-08-14-escaping-hugo-shortcodes/</link>
+      <pubDate>Fri, 14 Aug 2020 23:20:37 +1000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2020-08-14-escaping-hugo-shortcodes/</guid>
+      <description>TL;DR
+Add /* after the opening shortcode tags i.e., {{&amp;lt; and */ before the closing shortcode tags i.e. &amp;gt;}}
+While creating the post Beautifulhugo Theme Extras - Shortcodes (Split), I had quite a bit of trouble finding the answer to the question of &amp;ldquo;how can I display a block code in my post?&amp;rdquo;.
+The answer seemed obvious, use a code fence i.e. use triple backticks; OR indent the code block using 4 spaces; OR after adding a colon (:), surround the code by two blank lines, one at the top and one below the last line of code.</description>
+    </item>
+    
+    <item>
+      <title>Beautifulhugo Theme Extras - Shortcodes (Split)</title>
+      <link>http://localhost:1313/posts/2020-08-13-extra-shortcodes-split/</link>
+      <pubDate>Thu, 13 Aug 2020 22:34:32 +1000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2020-08-13-extra-shortcodes-split/</guid>
+      <description>Another extra beautifulhugo theme shortcode is called split. This shortcode splits the page into two columns. The example shown in the doco in the beautifulhugo repo (at the time of writing) was a little confusing because the closing endcolumns tag was incorrect (missing an s). Got there in the end. 😅
+It should look like this:
+1 2 3 4 5 {{&amp;lt; columns &amp;gt;}} First column on the right side of the page {{&amp;lt; column &amp;gt;}} Second column on the left side of the page {{&amp;lt; endcolumns &amp;gt;}} Yes, the first tag is columns whereas the intermediate tag is column.</description>
+    </item>
+    
+    <item>
+      <title>Beautifulhugo Theme Extras - Shortcodes (Details)</title>
+      <link>http://localhost:1313/posts/2020-08-12-extra-shortcodes-details/</link>
+      <pubDate>Wed, 12 Aug 2020 22:29:32 +1000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2020-08-12-extra-shortcodes-details/</guid>
+      <description>An extra beautifulhugo theme shortcode is called details (checking the code itself shows that it is based on the HTML &amp;lt;details&amp;gt; tag). This shortcode hides some content until the text set on the detail is clicked.
+An example follows:
+Click here to expand to show hidden content! This is the content you&amp;rsquo;d like to hide. 🧘
+The actual code used in this post for the previous example looks like this:</description>
+    </item>
+    
+    <item>
+      <title>Beautifulhugo Theme Extras - Chroma Server Side Syntax Highlighting</title>
+      <link>http://localhost:1313/posts/2020-08-11-extra-features-chroma/</link>
+      <pubDate>Tue, 11 Aug 2020 09:19:24 +1000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2020-08-11-extra-features-chroma/</guid>
+      <description>The beautifulhugo theme has support for Hugo&amp;rsquo;s Chroma (a general purpose syntax highlighter in pure Go) syntax highlighting.
+Let me try that out! 🚀
+Add the following to the site config i.e.config.toml file:
+1 2 pygmentsCodeFences = true pygmentsUseClasses = true Then from the command line, generate the desired new code style (in my case, monokai) by running:
+1 hugo gen chromastyles --style=monokai &amp;gt; static/monkai.css Or if you want to add more structure to your static files, add the following to the site config i.</description>
+    </item>
+    
+    <item>
+      <title>It&#39;s Alive!</title>
+      <link>http://localhost:1313/posts/2020-08-10-alive/</link>
+      <pubDate>Mon, 10 Aug 2020 07:55:32 +1000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2020-08-10-alive/</guid>
+      <description>It&amp;rsquo;s ALIVE!
+Time for a celebratory virtual tipple! 🍸
+Cheers! 😄 🎉 😄</description>
     </item>
     
   </channel>
