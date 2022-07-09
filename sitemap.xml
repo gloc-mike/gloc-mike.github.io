@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/2022-07-03-starting-again/</loc>
+    <loc>http://localhost:1313/posts/2022-07-03/</loc>
     <lastmod>2022-07-03T15:39:30+10:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
@@ -29,7 +29,7 @@
     <loc>http://localhost:1313/tags/nvm/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2020-08-22/2020-08-22-jshint-vs-code-error/</loc>
+    <loc>http://localhost:1313/posts/2020-08-22/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/solutions/</loc>
@@ -44,7 +44,7 @@
     <loc>http://localhost:1313/tags/beautifulhugo/</loc>
     <lastmod>2020-08-14T23:20:37+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2020-08-14-escaping-hugo-shortcodes/</loc>
+    <loc>http://localhost:1313/posts/2020-08-14/</loc>
     <lastmod>2020-08-14T23:20:37+10:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hugo/</loc>
@@ -53,13 +53,13 @@
     <loc>http://localhost:1313/tags/shortcodes/</loc>
     <lastmod>2020-08-14T23:20:37+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2020-08-13-extra-shortcodes-split/</loc>
+    <loc>http://localhost:1313/posts/2020-08-13/</loc>
     <lastmod>2020-08-13T22:34:32+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2020-08-12-extra-shortcodes-details/</loc>
+    <loc>http://localhost:1313/posts/2020-08-12/</loc>
     <lastmod>2020-08-12T22:29:32+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2020-08-11-extra-features-chroma/</loc>
+    <loc>http://localhost:1313/posts/2020-08-11/</loc>
     <lastmod>2020-08-11T09:19:24+10:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/chroma/</loc>
@@ -71,7 +71,7 @@
     <loc>http://localhost:1313/tags/static-files/</loc>
     <lastmod>2020-08-11T09:19:24+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2020-08-10-alive/</loc>
+    <loc>http://localhost:1313/posts/2020-08-10/</loc>
     <lastmod>2020-08-10T07:55:32+10:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
