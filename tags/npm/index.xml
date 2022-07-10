@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>npm on Coding Dayz</title>
+    <link>https://gloc-mike.github.io/tags/npm/</link>
+    <description>Recent content in npm on Coding Dayz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2022 Michael B</copyright>
+    <lastBuildDate>Sat, 22 Aug 2020 12:23:19 +1000</lastBuildDate><atom:link href="https://gloc-mike.github.io/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solution to &#39;Failed to load jshint library&#39; Error in VS Code</title>
+      <link>https://gloc-mike.github.io/posts/2020-08-22/</link>
+      <pubDate>Sat, 22 Aug 2020 12:23:19 +1000</pubDate>
+      
+      <guid>https://gloc-mike.github.io/posts/2020-08-22/</guid>
+      <description>When using VS Code with jshint installed I would get the following error displayed whenever I opened a JavaScript project: I want jshint to be available globally &amp;hellip; I want it to be available in all JavaScript projects. So I went to the command line and dutifully entered npm install -g jshint thinking that it would fix the problem. It did not! ☹️
+A bit of searching on the net dredged up this very problem on StackOverflow.</description>
+    </item>
+    
+  </channel>
+</rss>

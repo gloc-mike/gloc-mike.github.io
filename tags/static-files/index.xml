@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>static files on Coding Dayz</title>
+    <link>https://gloc-mike.github.io/tags/static-files/</link>
+    <description>Recent content in static files on Coding Dayz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2022 Michael B</copyright>
+    <lastBuildDate>Tue, 11 Aug 2020 09:19:24 +1000</lastBuildDate><atom:link href="https://gloc-mike.github.io/tags/static-files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beautifulhugo Theme Extras - Chroma Server Side Syntax Highlighting</title>
+      <link>https://gloc-mike.github.io/posts/2020-08-11/</link>
+      <pubDate>Tue, 11 Aug 2020 09:19:24 +1000</pubDate>
+      
+      <guid>https://gloc-mike.github.io/posts/2020-08-11/</guid>
+      <description>The beautifulhugo theme has support for Hugo&amp;rsquo;s Chroma (a general purpose syntax highlighter in pure Go) syntax highlighting.
+Let me try that out! 🚀
+Add the following to the site config i.e.config.toml file:
+1 2 pygmentsCodeFences = true pygmentsUseClasses = true Then from the command line, generate the desired new code style (in my case, monokai) by running:
+1 hugo gen chromastyles --style=monokai &amp;gt; static/monkai.css Or if you want to add more structure to your static files, add the following to the site config i.</description>
+    </item>
+    
+  </channel>
+</rss>
