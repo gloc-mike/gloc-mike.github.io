@@ -2,83 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/2022-07-03/</loc>
+    <loc>https://gloc-mike.github.io/posts/2022-07-03/</loc>
     <lastmod>2022-07-03T15:39:30+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://gloc-mike.github.io/categories/</loc>
     <lastmod>2022-07-03T15:39:30+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://gloc-mike.github.io/</loc>
     <lastmod>2022-07-03T15:39:30+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://gloc-mike.github.io/posts/</loc>
     <lastmod>2022-07-03T15:39:30+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/uncategorised/</loc>
+    <loc>https://gloc-mike.github.io/categories/uncategorised/</loc>
     <lastmod>2022-07-03T15:39:30+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/brew/</loc>
+    <loc>https://gloc-mike.github.io/tags/brew/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/jshint/</loc>
+    <loc>https://gloc-mike.github.io/tags/jshint/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/npm/</loc>
+    <loc>https://gloc-mike.github.io/tags/npm/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/nvm/</loc>
+    <loc>https://gloc-mike.github.io/tags/nvm/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2020-08-22/</loc>
+    <loc>https://gloc-mike.github.io/posts/2020-08-22/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/solutions/</loc>
+    <loc>https://gloc-mike.github.io/tags/solutions/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://gloc-mike.github.io/tags/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vs-code/</loc>
+    <loc>https://gloc-mike.github.io/tags/vs-code/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/beautifulhugo/</loc>
+    <loc>https://gloc-mike.github.io/tags/beautifulhugo/</loc>
     <lastmod>2020-08-14T23:20:37+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2020-08-14/</loc>
+    <loc>https://gloc-mike.github.io/posts/2020-08-14/</loc>
     <lastmod>2020-08-14T23:20:37+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://gloc-mike.github.io/tags/hugo/</loc>
     <lastmod>2020-08-14T23:20:37+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/shortcodes/</loc>
+    <loc>https://gloc-mike.github.io/tags/shortcodes/</loc>
     <lastmod>2020-08-14T23:20:37+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2020-08-13/</loc>
+    <loc>https://gloc-mike.github.io/posts/2020-08-13/</loc>
     <lastmod>2020-08-13T22:34:32+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2020-08-12/</loc>
+    <loc>https://gloc-mike.github.io/posts/2020-08-12/</loc>
     <lastmod>2020-08-12T22:29:32+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2020-08-11/</loc>
+    <loc>https://gloc-mike.github.io/posts/2020-08-11/</loc>
     <lastmod>2020-08-11T09:19:24+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/chroma/</loc>
+    <loc>https://gloc-mike.github.io/tags/chroma/</loc>
     <lastmod>2020-08-11T09:19:24+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
+    <loc>https://gloc-mike.github.io/tags/css/</loc>
     <lastmod>2020-08-11T09:19:24+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/static-files/</loc>
+    <loc>https://gloc-mike.github.io/tags/static-files/</loc>
     <lastmod>2020-08-11T09:19:24+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2020-08-10/</loc>
+    <loc>https://gloc-mike.github.io/posts/2020-08-10/</loc>
     <lastmod>2020-08-10T07:55:32+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://gloc-mike.github.io/about/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://gloc-mike.github.io/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://gloc-mike.github.io/search/</loc>
   </url>
 </urlset>
