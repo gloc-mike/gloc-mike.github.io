@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Coding Dayz</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://gloc-mike.github.io/categories/</link>
     <description>Recent content in Categories on Coding Dayz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2022 Michael B</copyright>
-    <lastBuildDate>Sun, 03 Jul 2022 15:39:30 +1000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jul 2022 15:39:30 +1000</lastBuildDate><atom:link href="https://gloc-mike.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>uncategorised</title>
-      <link>http://localhost:1313/categories/uncategorised/</link>
+      <link>https://gloc-mike.github.io/categories/uncategorised/</link>
       <pubDate>Sun, 03 Jul 2022 15:39:30 +1000</pubDate>
       
-      <guid>http://localhost:1313/categories/uncategorised/</guid>
+      <guid>https://gloc-mike.github.io/categories/uncategorised/</guid>
       <description></description>
     </item>
     
