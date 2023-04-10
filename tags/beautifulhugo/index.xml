@@ -10,10 +10,10 @@
     <lastBuildDate>Fri, 14 Aug 2020 23:20:37 +1000</lastBuildDate><atom:link href="https://gloc-mike.github.io/tags/beautifulhugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Escaping Hugo Shortcodes in Posts</title>
-      <link>https://gloc-mike.github.io/posts/2020-08-14/</link>
+      <link>https://gloc-mike.github.io/2020-/08-/14/</link>
       <pubDate>Fri, 14 Aug 2020 23:20:37 +1000</pubDate>
       
-      <guid>https://gloc-mike.github.io/posts/2020-08-14/</guid>
+      <guid>https://gloc-mike.github.io/2020-/08-/14/</guid>
       <description>TL;DR
 Add /* after the opening shortcode tags i.e., {{&amp;lt; and */ before the closing shortcode tags i.e. &amp;gt;}}
 While creating the post Beautifulhugo Theme Extras - Shortcodes (Split), I had quite a bit of trouble finding the answer to the question of &amp;ldquo;how can I display a block code in my post?&amp;rdquo;.
@@ -22,10 +22,10 @@ The answer seemed obvious, use a code fence i.e. use triple backticks; OR indent
     
     <item>
       <title>Beautifulhugo Theme Extras - Shortcodes (Split)</title>
-      <link>https://gloc-mike.github.io/posts/2020-08-13/</link>
+      <link>https://gloc-mike.github.io/2020-/08-/13/</link>
       <pubDate>Thu, 13 Aug 2020 22:34:32 +1000</pubDate>
       
-      <guid>https://gloc-mike.github.io/posts/2020-08-13/</guid>
+      <guid>https://gloc-mike.github.io/2020-/08-/13/</guid>
       <description>Another extra beautifulhugo theme shortcode is called split. This shortcode splits the page into two columns. The example shown in the doco in the beautifulhugo repo (at the time of writing) was a little confusing because the closing endcolumns tag was incorrect (missing an s). Got there in the end. 😅
 It should look like this:
 1 2 3 4 5 {{&amp;lt; columns &amp;gt;}} First column on the right side of the page {{&amp;lt; column &amp;gt;}} Second column on the left side of the page {{&amp;lt; endcolumns &amp;gt;}} Yes, the first tag is columns whereas the intermediate tag is column.</description>
@@ -33,10 +33,10 @@ It should look like this:
     
     <item>
       <title>Beautifulhugo Theme Extras - Shortcodes (Details)</title>
-      <link>https://gloc-mike.github.io/posts/2020-08-12/</link>
+      <link>https://gloc-mike.github.io/2020-/08-/12/</link>
       <pubDate>Wed, 12 Aug 2020 22:29:32 +1000</pubDate>
       
-      <guid>https://gloc-mike.github.io/posts/2020-08-12/</guid>
+      <guid>https://gloc-mike.github.io/2020-/08-/12/</guid>
       <description>An extra beautifulhugo theme shortcode is called details (checking the code itself shows that it is based on the HTML &amp;lt;details&amp;gt; tag). This shortcode hides some content until the text set on the detail is clicked.
 An example follows:
 Click here to expand to show hidden content! This is the content you&amp;rsquo;d like to hide. 🧘
@@ -45,10 +45,10 @@ The actual code used in this post for the previous example looks like this:</des
     
     <item>
       <title>Beautifulhugo Theme Extras - Chroma Server Side Syntax Highlighting</title>
-      <link>https://gloc-mike.github.io/posts/2020-08-11/</link>
+      <link>https://gloc-mike.github.io/2020-/08-/11/</link>
       <pubDate>Tue, 11 Aug 2020 09:19:24 +1000</pubDate>
       
-      <guid>https://gloc-mike.github.io/posts/2020-08-11/</guid>
+      <guid>https://gloc-mike.github.io/2020-/08-/11/</guid>
       <description>The beautifulhugo theme has support for Hugo&amp;rsquo;s Chroma (a general purpose syntax highlighter in pure Go) syntax highlighting.
 Let me try that out! 🚀
 Add the following to the site config i.e.config.toml file:
