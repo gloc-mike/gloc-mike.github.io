@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - Coding Dayz">
 <meta name="author" content="">
 <link rel="canonical" href="https://gloc-mike.github.io/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b642c3b0e3975c991b56dc8c722023a341b9f293d2e26557ab9ee820208631b0.css" integrity="sha256-tkLDsOOXXJkbVtyMciAjo0G58pPS4mVXq57oICCGMbA=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.66cb5199fa362de5ce76e5611a9a2bcf4d147a5f8db35be6c4ccec7a7debb356.css" integrity="sha256-ZstRmfo2LeXOduVhGporz00Uel&#43;Ns1vmxMzsen3rs1Y=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://s.gravatar.com/avatar/adca4dcfccb3bd48bfc761950dc26bca?s=80">
 <link rel="icon" type="image/png" sizes="16x16" href="https://s.gravatar.com/avatar/adca4dcfccb3bd48bfc761950dc26bca?s=80">
 <link rel="icon" type="image/png" sizes="32x32" href="https://s.gravatar.com/avatar/adca4dcfccb3bd48bfc761950dc26bca?s=80">
@@ -100,12 +100,12 @@
             <a href="https://gloc-mike.github.io/" accesskey="h" title="Coding Dayz (Alt + H)">Coding Dayz</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -208,80 +208,15 @@ Add the following to the site config i.e.config.toml file:
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="prev" href="https://gloc-mike.github.io/posts/">« Prev</a>
-    <a class="next" href="https://gloc-mike.github.io/posts/page/3/">Next »</a>
+    <a class="prev" href="https://gloc-mike.github.io/posts/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://gloc-mike.github.io/posts/page/3/">Next&nbsp;&nbsp;»
+    </a>
   </nav>
 </footer>
     </main>
     
-<footer class="footer">
-    <span>© 2022 Michael B</span>
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
 </body>
 
 </html>
