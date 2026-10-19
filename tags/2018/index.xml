@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>2018 on Coding Dayz</title>
-    <link>http://localhost:1313/tags/2018/</link>
+    <link>https://gloc-mike.github.io/tags/2018/</link>
     <description>Recent content in 2018 on Coding Dayz</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2023 Michael Ball. All rights reserved.</copyright>
     <lastBuildDate>Thu, 20 Apr 2023 14:09:31 +1000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/2018/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gloc-mike.github.io/tags/2018/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wings Over Illawara 2018</title>
-      <link>http://localhost:1313/galleries/airshows/2018-illawara/</link>
+      <link>https://gloc-mike.github.io/galleries/airshows/2018-illawara/</link>
       <pubDate>Thu, 20 Apr 2023 14:09:31 +1000</pubDate>
-      <guid>http://localhost:1313/galleries/airshows/2018-illawara/</guid>
+      <guid>https://gloc-mike.github.io/galleries/airshows/2018-illawara/</guid>
       <description>&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=http://localhost:1313/js/load-photoswipe.js&gt;&lt;/script&gt;
+&lt;script src=https://gloc-mike.github.io/js/load-photoswipe.js&gt;&lt;/script&gt;
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
@@ -69,7 +69,7 @@
 &lt;/div&gt;
 
 
-&lt;link rel=&#34;stylesheet&#34; href=http://localhost:1313/css/hugo-easy-gallery.css /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=https://gloc-mike.github.io/css/hugo-easy-gallery.css /&gt;
 
 &lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
 &lt;/div&gt;
@@ -84,9 +84,9 @@
   &lt;div class=&#34;box&#34; &gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
       &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/placeholder_img.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/images/placeholder_img.jpg&#34; /&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://gloc-mike.github.io/images/placeholder_img.jpg&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;http://localhost:1313/images/placeholder_img.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;https://gloc-mike.github.io/images/placeholder_img.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
 
@@ -95,9 +95,9 @@
   &lt;div class=&#34;box&#34; &gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
       &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/Hawk-127_20161015raaf8298528_1029_960x540.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/images/Hawk-127_20161015raaf8298528_1029_960x540.jpg&#34; /&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://gloc-mike.github.io/images/Hawk-127_20161015raaf8298528_1029_960x540.jpg&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;http://localhost:1313/images/Hawk-127_20161015raaf8298528_1029_960x540.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;https://gloc-mike.github.io/images/Hawk-127_20161015raaf8298528_1029_960x540.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
 
@@ -106,9 +106,9 @@
   &lt;div class=&#34;box&#34; &gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
       &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/Hawk-127_20161015raaf8298528_1029_960x540.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/images/Hawk-127_20161015raaf8298528_1029_960x540.jpg&#34; /&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://gloc-mike.github.io/images/Hawk-127_20161015raaf8298528_1029_960x540.jpg&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;http://localhost:1313/images/Hawk-127_20161015raaf8298528_1029_960x540.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;https://gloc-mike.github.io/images/Hawk-127_20161015raaf8298528_1029_960x540.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
 
