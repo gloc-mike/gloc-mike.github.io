@@ -1,60 +1,105 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>beautifulhugo on Coding Dayz</title>
-    <link>https://gloc-mike.github.io/tags/beautifulhugo/</link>
-    <description>Recent content in beautifulhugo on Coding Dayz</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Beautifulhugo on Coding Dayz</title>
+    <link>http://localhost:1313/tags/beautifulhugo/</link>
+    <description>Recent content in Beautifulhugo on Coding Dayz</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>**© 2023 Michael Ball. All rights reserved.**</copyright>
-    <lastBuildDate>Fri, 14 Aug 2020 23:20:37 +1000</lastBuildDate><atom:link href="https://gloc-mike.github.io/tags/beautifulhugo/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>2023 Michael Ball. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 14 Aug 2020 23:20:37 +1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/beautifulhugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Escaping Hugo Shortcodes in Posts</title>
-      <link>https://gloc-mike.github.io/2020-/08-/14/</link>
+      <link>http://localhost:1313/2020/08/14/</link>
       <pubDate>Fri, 14 Aug 2020 23:20:37 +1000</pubDate>
-      
-      <guid>https://gloc-mike.github.io/2020-/08-/14/</guid>
-      <description>TL;DR
-Add /* after the opening shortcode tags i.e., {{&amp;lt; and */ before the closing shortcode tags i.e. &amp;gt;}}
-While creating the post Beautifulhugo Theme Extras - Shortcodes (Split), I had quite a bit of trouble finding the answer to the question of &amp;ldquo;how can I display a block code in my post?&amp;rdquo;.
-The answer seemed obvious, use a code fence i.e. use triple backticks; OR indent the code block using 4 spaces; OR after adding a colon (:), surround the code by two blank lines, one at the top and one below the last line of code.</description>
+      <guid>http://localhost:1313/2020/08/14/</guid>
+      <description>&lt;p&gt;TL;DR&lt;/p&gt;
+&lt;p&gt;Add &lt;code&gt;/*&lt;/code&gt; after the opening shortcode tags i.e., &lt;code&gt;{{&amp;lt;&lt;/code&gt; and &lt;code&gt;*/&lt;/code&gt; before the closing shortcode tags i.e. &lt;code&gt;&amp;gt;}}&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;While creating the post &lt;a href=&#34;http://localhost:1313/posts/2020-08-13-extra-shortcodes-split&#34;&gt;Beautifulhugo Theme Extras - Shortcodes (Split)&lt;/a&gt;, I had quite a bit of trouble finding the answer to the question of &amp;ldquo;&lt;em&gt;how can I display a block code in my post?&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;The answer seemed obvious, use a code fence i.e. use triple backticks; OR indent the code block using 4 spaces; OR after adding a colon (:), surround the code by two blank lines, one at the top and one below the last line of code.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Beautifulhugo Theme Extras - Shortcodes (Split)</title>
-      <link>https://gloc-mike.github.io/2020-/08-/13/</link>
+      <link>http://localhost:1313/2020/08/13/</link>
       <pubDate>Thu, 13 Aug 2020 22:34:32 +1000</pubDate>
-      
-      <guid>https://gloc-mike.github.io/2020-/08-/13/</guid>
-      <description>Another extra beautifulhugo theme shortcode is called split. This shortcode splits the page into two columns. The example shown in the doco in the beautifulhugo repo (at the time of writing) was a little confusing because the closing endcolumns tag was incorrect (missing an s). Got there in the end. 😅
-It should look like this:
-1 2 3 4 5 {{&amp;lt; columns &amp;gt;}} First column on the right side of the page {{&amp;lt; column &amp;gt;}} Second column on the left side of the page {{&amp;lt; endcolumns &amp;gt;}} Yes, the first tag is columns whereas the intermediate tag is column.</description>
+      <guid>http://localhost:1313/2020/08/13/</guid>
+      <description>&lt;p&gt;Another &lt;em&gt;extra&lt;/em&gt; &lt;code&gt;beautifulhugo&lt;/code&gt; theme shortcode is called &lt;strong&gt;split&lt;/strong&gt;. This shortcode splits the page into &lt;strong&gt;two columns&lt;/strong&gt;. The example shown in the doco in the &lt;code&gt;beautifulhugo&lt;/code&gt; repo (at the time of writing) was a little confusing because the closing &lt;code&gt;endcolumns&lt;/code&gt; tag was incorrect (missing an &lt;strong&gt;s&lt;/strong&gt;). Got there in the end. 😅&lt;/p&gt;
+&lt;p&gt;It should look like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go-html-template&#34; data-lang=&#34;go-html-template&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;{{&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;columns&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    First column on the right side of the page
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;{{&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;column&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Second column on the left side of the page
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;{{&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;endcolumns&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Yes, the first tag is &lt;code&gt;columns&lt;/code&gt; whereas the intermediate tag is &lt;code&gt;column&lt;/code&gt;. And the closing tag is again a plural i.e. &lt;code&gt;endcolumns&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Beautifulhugo Theme Extras - Shortcodes (Details)</title>
-      <link>https://gloc-mike.github.io/2020-/08-/12/</link>
+      <link>http://localhost:1313/2020/08/12/</link>
       <pubDate>Wed, 12 Aug 2020 22:29:32 +1000</pubDate>
-      
-      <guid>https://gloc-mike.github.io/2020-/08-/12/</guid>
-      <description>An extra beautifulhugo theme shortcode is called details (checking the code itself shows that it is based on the HTML &amp;lt;details&amp;gt; tag). This shortcode hides some content until the text set on the detail is clicked.
-An example follows:
-Click here to expand to show hidden content! This is the content you&amp;rsquo;d like to hide. 🧘
-The actual code used in this post for the previous example looks like this:</description>
+      <guid>http://localhost:1313/2020/08/12/</guid>
+      <description>&lt;p&gt;An &lt;em&gt;extra&lt;/em&gt; &lt;code&gt;beautifulhugo&lt;/code&gt; theme shortcode is called &lt;strong&gt;details&lt;/strong&gt; (checking the code itself shows that it is based on the HTML &lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt; tag). This shortcode hides some &lt;em&gt;content&lt;/em&gt; until the text set on the detail is clicked.&lt;/p&gt;
+&lt;p&gt;An example follows:&lt;/p&gt;
+&lt;details&gt;
+    &lt;summary&gt;Click here to expand to show hidden content!&lt;/summary&gt;
+    &lt;p&gt;This is the content you&amp;rsquo;d like to hide. 🧘&lt;/p&gt;
+&lt;/details&gt;
+
+&lt;p&gt;The actual code used in this post for the previous example looks like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go-html-template&#34; data-lang=&#34;go-html-template&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;{{&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;details&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Click here to expand to show the content!&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This is the content you&amp;#39;d like to hide. 🧘
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;{{&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;details&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;I had trouble adding spacing to the content in the details shortcode above so I resorted to adding HTML &lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt; tags but that didn&amp;rsquo;t work either. Probably need to escape some HTML or something like that - not looking into that now though - maybe for another time.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Beautifulhugo Theme Extras - Chroma Server Side Syntax Highlighting</title>
-      <link>https://gloc-mike.github.io/2020-/08-/11/</link>
+      <link>http://localhost:1313/2020/08/11/</link>
       <pubDate>Tue, 11 Aug 2020 09:19:24 +1000</pubDate>
-      
-      <guid>https://gloc-mike.github.io/2020-/08-/11/</guid>
-      <description>The beautifulhugo theme has support for Hugo&amp;rsquo;s Chroma (a general purpose syntax highlighter in pure Go) syntax highlighting.
-Let me try that out! 🚀
-Add the following to the site config i.e.config.toml file:
-1 2 pygmentsCodeFences = true pygmentsUseClasses = true Then from the command line, generate the desired new code style (in my case, monokai) by running:
-1 hugo gen chromastyles --style=monokai &amp;gt; static/monkai.css Or if you want to add more structure to your static files, add the following to the site config i.</description>
+      <guid>http://localhost:1313/2020/08/11/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;beautifulhugo&lt;/code&gt; theme has support for Hugo&amp;rsquo;s Chroma (a general purpose syntax highlighter in pure Go) syntax highlighting.&lt;/p&gt;
+&lt;p&gt;Let me try that out! 🚀&lt;/p&gt;
+&lt;p&gt;Add the following to the site config i.e.&lt;code&gt;config.toml&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;pygmentsCodeFences&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;pygmentsUseClasses&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then from the command line, generate the desired new code style (in my case, &lt;code&gt;monokai&lt;/code&gt;) by running:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo gen chromastyles --style&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;monokai &amp;gt; static/monokai.css
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Or if you want to add more structure to your static files, add the following to the site config i.e. &lt;code&gt;config.toml&lt;/code&gt; file:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

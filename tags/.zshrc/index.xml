@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>.Zshrc on Coding Dayz</title>
+    <link>http://localhost:1313/tags/.zshrc/</link>
+    <description>Recent content in .Zshrc on Coding Dayz</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>2023 Michael Ball. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 14 May 2023 15:30:58 +1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/.zshrc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable `pipx` completions</title>
+      <link>http://localhost:1313/2023/05/14/</link>
+      <pubDate>Sun, 14 May 2023 15:30:58 +1000</pubDate>
+      <guid>http://localhost:1313/2023/05/14/</guid>
+      <description>&lt;p&gt;To enable &lt;code&gt;pipx&lt;/code&gt; completions you need to have &lt;code&gt;bashcompinit&lt;/code&gt; enabled in zsh.&lt;/p&gt;
+&lt;p&gt;Fix: add the following to the beginning of your &lt;code&gt;~/.zshrc&lt;/code&gt; file:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;ZSH Autoload Bashcompinit&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/2023/05/14/images/zsh_autoload_bashcompinit.svg#center&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solution to &#39;complete:13: command not found: compdef&#39; Message</title>
+      <link>http://localhost:1313/2023/05/13/</link>
+      <pubDate>Sat, 13 May 2023 12:00:23 +1000</pubDate>
+      <guid>http://localhost:1313/2023/05/13/</guid>
+      <description>&lt;p&gt;I think I got this error when I was trying to add autocompletion to my ZSH config.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    complete:13: command not found: compdef
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I found the solution in this &lt;a href=&#34;https://stackoverflow.com/questions/66338988/complete13-command-not-found-compdef/74323525#74323525&#34;&gt;StackOverflow article&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Fix: add the following to the beginning of your &lt;code&gt;~/.zshrc&lt;/code&gt; file:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;ZSH Autoload Compinit&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/2023/05/13/images/zsh_autoload_compinit.svg#center&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

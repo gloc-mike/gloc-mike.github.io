@@ -2,83 +2,115 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gloc-mike.github.io/2022-/07-/03/</loc>
+    <loc>http://localhost:1313/2022/07/03/</loc>
     <lastmod>2022-07-03T15:39:30+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2023-05-15T23:00:43+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cats/</loc>
+    <lastmod>2023-05-15T23:00:43+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2023-05-15T23:00:43+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/galleries/</loc>
+    <lastmod>2023-05-15T23:00:43+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/gallery/</loc>
+    <lastmod>2023-05-15T23:00:43+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2023-05-15T23:00:43+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/galleries/cats/tonkinese/</loc>
+    <lastmod>2023-05-15T23:00:43+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/2018/</loc>
+    <lastmod>2023-04-20T14:09:31+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/2021/</loc>
+    <lastmod>2023-04-20T14:09:31+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/airshows/</loc>
+    <lastmod>2023-04-20T14:09:31+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gallery/</loc>
+    <lastmod>2023-04-20T14:09:31+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/illawara/</loc>
+    <lastmod>2023-04-20T14:09:31+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/galleries/airshows/2018-illawara/</loc>
+    <lastmod>2023-04-20T14:09:31+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/galleries/airshows/2021-illawara/</loc>
+    <lastmod>2023-04-20T14:09:31+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2022-07-03T15:39:30+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/</loc>
+    <loc>http://localhost:1313/categories/uncategorised/</loc>
     <lastmod>2022-07-03T15:39:30+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/posts/</loc>
-    <lastmod>2022-07-03T15:39:30+10:00</lastmod>
-  </url><url>
-    <loc>https://gloc-mike.github.io/categories/uncategorised/</loc>
-    <lastmod>2022-07-03T15:39:30+10:00</lastmod>
-  </url><url>
-    <loc>https://gloc-mike.github.io/tags/brew/</loc>
+    <loc>http://localhost:1313/tags/brew/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/tags/jshint/</loc>
+    <loc>http://localhost:1313/tags/fix/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/tags/npm/</loc>
+    <loc>http://localhost:1313/tags/jshint/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/tags/nvm/</loc>
+    <loc>http://localhost:1313/tags/npm/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/2020-/08-/22/</loc>
+    <loc>http://localhost:1313/tags/nvm/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/tags/solutions/</loc>
+    <loc>http://localhost:1313/2020/08/22/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/vs-code/</loc>
     <lastmod>2020-08-22T12:23:19+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/tags/vs-code/</loc>
-    <lastmod>2020-08-22T12:23:19+10:00</lastmod>
-  </url><url>
-    <loc>https://gloc-mike.github.io/tags/beautifulhugo/</loc>
+    <loc>http://localhost:1313/tags/beautifulhugo/</loc>
     <lastmod>2020-08-14T23:20:37+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/2020-/08-/14/</loc>
+    <loc>http://localhost:1313/2020/08/14/</loc>
     <lastmod>2020-08-14T23:20:37+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/tags/hugo/</loc>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2020-08-14T23:20:37+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/tags/shortcodes/</loc>
+    <loc>http://localhost:1313/tags/shortcodes/</loc>
     <lastmod>2020-08-14T23:20:37+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/2020-/08-/13/</loc>
+    <loc>http://localhost:1313/2020/08/13/</loc>
     <lastmod>2020-08-13T22:34:32+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/2020-/08-/12/</loc>
+    <loc>http://localhost:1313/2020/08/12/</loc>
     <lastmod>2020-08-12T22:29:32+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/2020-/08-/11/</loc>
+    <loc>http://localhost:1313/2020/08/11/</loc>
     <lastmod>2020-08-11T09:19:24+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/tags/chroma/</loc>
+    <loc>http://localhost:1313/tags/chroma/</loc>
     <lastmod>2020-08-11T09:19:24+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/tags/css/</loc>
+    <loc>http://localhost:1313/tags/css/</loc>
     <lastmod>2020-08-11T09:19:24+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/tags/static-files/</loc>
+    <loc>http://localhost:1313/tags/static-files/</loc>
     <lastmod>2020-08-11T09:19:24+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/2020-/08-/10/</loc>
+    <loc>http://localhost:1313/2020/08/10/</loc>
     <lastmod>2020-08-10T07:55:32+10:00</lastmod>
   </url><url>
-    <loc>https://gloc-mike.github.io/about/</loc>
-    <priority>0</priority>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://gloc-mike.github.io/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>https://gloc-mike.github.io/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>
